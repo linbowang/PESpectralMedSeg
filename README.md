@@ -1,10 +1,8 @@
 # Position-aware Interleaved Spatial-Spectral Network
 
+Official Pytorch implementation of ‘Position-aware Interleaved Spatial-Spectral Network for Multi-Organ Segmentation in the Internet of Medical Things’
 
-
-Official Pytorch implementation of 
-
-## Architecture
+[comment]: <> (## Architecture)
 
 
 ## Usage:
@@ -18,7 +16,7 @@ Please use ```pip install -r requirements.txt``` to install the dependencies.
 
 ### Data preparation:
 - **Synapse Multi-organ dataset:**
-Sign up in the [official Synapse website](https://www.synapse.org/#!Synapse:syn3193805/wiki/) and download the dataset. Convert them to numpy format, clip the images within [-125, 275], normalize each 3D image to [0, 1], and extract 2D slices from 3D volume for training cases while keeping the 3D volume in h5 format for testing cases. move into './data/ACDC/' folder.
+Sign up in the [official Synapse website](https://www.synapse.org/#!Synapse:syn3193805/wiki/) and download the dataset. Convert them to numpy format, clip the images within [-125, 275], normalize each 3D image to [0, 1], and extract 2D slices from 3D volume for training cases while keeping the 3D volume in h5 format for testing cases. move into './data/Synapse/' folder.
 
 - **ACDC dataset:**
 Download the preprocessed ACDC dataset from [Google Drive of MT-UNet](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) and move into './data/ACDC/' folder.
@@ -43,8 +41,10 @@ For ACDC testing run ```test_ACDC.py```
 ### Trained model
 Our trained model can be finded by https://pan.baidu.com/s/170UZ5jq8DbStdBG81Q71zQ?pwd=12qw
 
-## Acknowledgement
-We are very grateful for these excellent works 
-## Citations
+[comment]: <> (## Acknowledgement)
 
-```
+[comment]: <> (We are very grateful for these excellent works )
+
+[comment]: <> (## Citations)
+
+[comment]: <> (```)
